@@ -1,0 +1,9 @@
+Locking state in S3 Using AWS Dynamodb Table
+Importing a resource into state which are manually created
+Terraform data sources
+
+add Dynamodb in user
+
+Create Dynamodb
+after creation remove from Terraform
+
