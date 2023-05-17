@@ -1,0 +1,53 @@
+variable cidr_block {
+  type        = string
+  default     = "10.1.0.0/16"
+  description = "CIDR Block for VPC"
+}
+
+variable env {
+    type        = string
+  default     = "Development"
+  description = "Environment tag for VPC"
+}
+
+variable IGW_name {
+    type        = string
+  default     = "Test_Vpc_1-igw"
+  description = "Environment tag for VPC"
+}
+
+variable public_subnet1_cidr {
+  type        = string
+  default     = "10.1.0.0/24"
+  description = "CIDR Block for Subnet-1"
+}
+
+variable public_subnet2_cidr {
+  type        = string
+  default     = "10.1.2.0/24"
+  description = "CIDR Block for Subnet-2"
+}
+
+variable public_subnet3_cidr {
+  type        = string
+  default     = "10.1.3.0/24"
+  description = "CIDR Block for Subnet-3"
+}
+
+variable public_subnet1_name {
+  type        = string
+  default     = "testvpc01-subnet-1"
+  description = "Name for Subnet-1"
+}
+
+variable public_subnet2_name {
+  type        = string
+  default     = "testvpc01-subnet-2"
+  description = "Name for Subnet-2"
+}
+
+variable public_subnet3_name {
+  type        = string
+  default     = "testvpc01-subnet-3"
+  description = "Name for Subnet-3"
+}
