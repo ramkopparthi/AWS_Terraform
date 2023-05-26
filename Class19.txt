@@ -1,9 +1,14 @@
 Locking state in S3 Using AWS Dynamodb Table
-Importing a resource into state which are manually created
-Terraform data sources
+tfvars,auto.tfvars,variable presdence 
 
 add Dynamodb in user
 
 Create Dynamodb
 after creation remove from Terraform
+
+terraform plan --var-file .\filename
+
+export AWS_SECRET_KEY_ID = ""
+export ACCESS = ""
+export AWS_REGION = ""
 

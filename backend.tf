@@ -1,8 +1,10 @@
 terraform {
   backend "s3" {
-    bucket = "mohanterraformbucket"
-    key    = "bucket18.tfstate"
-    region = "us-east-1"
+    bucket         = "ramterraformbucket19"
+    key            = "bucket18.tfstate"
+    region         = "us-east-1"
+    dynamodb_table = "devopsb19-terraform-locking"
+    encrypt        = true
   }
 }
 
